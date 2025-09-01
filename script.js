@@ -75,9 +75,9 @@ document.addEventListener("DOMContentLoaded", () => {
         const tags = project.getAttribute("data-tags").split(",");
 
         if (filter === "all" || tags.includes(filter)) {
-          project.style.display = "block"; // Show project
+          project.style.display = "inline-flex";
         } else {
-          project.style.display = "none"; // Hide project
+          project.style.display = "none";
         }
       });
     });
