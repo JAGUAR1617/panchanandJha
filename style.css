@@ -20,7 +20,7 @@ body {
 
 body {
     margin: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Merriweather', sans-serif;
     /* font-family: 'Inter', system-ui, Segoe UI, Roboto, 'Helvetica Neue', Arial; */
     /* font-family: 'Outfit', sans-serif; */
     /* background: linear-gradient(180deg, var(--bg), #061022 120%); */
@@ -397,7 +397,6 @@ footer {
 
 .research-profile {
     display: inline-flex;
-    position: relative;
     font-weight: 700;
     margin-top: 18px;
     margin-bottom: 10px;
@@ -440,4 +439,119 @@ footer {
 .bracket-content {
   position: relative;
   z-index: 1;
+}
+
+
+.workshop-section {
+  /* margin-top: 24px; */
+  padding: 10px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.workshop-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 16px;
+  color: #ffffff;
+  border-left: 5px solid #0ea5a4;
+  padding-left: 10px;
+}
+
+.workshop-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+  border-left: 2px solid #e2e8f0;
+}
+
+.workshop-list li {
+  position: relative;
+  margin: 16px 0;
+  padding-left: 28px;
+  font-size: 0.9rem;
+  color: #ffffff;
+  line-height: 1.6;
+}
+
+.workshop-list li .dot {
+  position: absolute;
+  left: -7px;
+  top: 6px;
+  height: 12px;
+  width: 12px;
+  background-color: #0ea5a4;
+  border-radius: 40%;
+  box-shadow: 0 0 0 3px #e0e7ff;
+}
+
+.education-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 16px;
+  color: #fcfcfc;
+  border-left: 5px solid #0ea5a4;
+  padding-left: 10px;
+}
+
+.education-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+  border-left: 2px solid #e2e8f0;
+}
+
+.education-list li {
+  position: relative;
+  margin: 16px 0;
+  padding-left: 28px;
+  font-size: 1rem;
+  color: #ffffff;
+  line-height: 1.6;
+}
+
+.education-list li .dot {
+  position: absolute;
+  left: -7px;
+  top: 6px;
+  height: 12px;
+  width: 12px;
+  background-color: #0ea5a4;
+  border-radius: 35%;
+  box-shadow: 0 0 0 3px #e0e7ff;
+}
+.skills-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 16px;
+  color: #f7f7f7;
+  border-left: 5px solid #0ea5a4;
+  padding-left: 10px;
+}
+
+.skills-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+  border-left: 2px solid #e2e8f0;
+}
+
+.skills-list li {
+  position: relative;
+  margin: 16px 0;
+  padding-left: 28px;
+  font-size: 1rem;
+  color: #0ea5a4;
+  line-height: 1.6;
+}
+
+.skills-list li .dot {
+  position: absolute;
+  left: -7px;
+  top: 6px;
+  height: 12px;
+  width: 12px;
+  background-color: #4f46e5;
+  border-radius: 35%;
+  box-shadow: 0 0 0 3px #e0e7ff;
 }
